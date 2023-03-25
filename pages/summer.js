@@ -162,6 +162,7 @@ const App = () => {
   </Text>
 </Container>
   )
+}
 const ResourceCard = ({ icon, title, description }) => {
   return (
     <Box
