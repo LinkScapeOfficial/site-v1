@@ -1,5 +1,5 @@
 import { Box, Container, Flex, Heading, Text } from 'theme-ui';
-import { Github, Google, Figma, Terminal } from '@hackclub/icons';
+import { github, google, gigma, terminal } from '@hackclub/icons';
 
 const App = () => {
   return (
@@ -99,22 +99,22 @@ const App = () => {
       </Text>
       <Flex sx={{ flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center' }}>
         <ResourceCard
-          icon={<Github />}
+          icon={<github />}
           title="GitHub"
           description="Students will receive a free GitHub Team subscription, allowing them to create and host unlimited code repositories for code hosting, version control, and collaborative development."
         />
         <ResourceCard
-          icon={<Google />}
+          icon={<google />}
           title="Google Workspace"
           description="Students will receive a free Google Workspace subscription, including Gmail, Google Drive, Google Docs, Google Sheets, and other tools for online collaboration and file sharing."
         />
         <ResourceCard
-          icon={<Figma />}
+          icon={<figma />}
           title="Figma"
           description="Students will receive a free Figma subscription, enabling them to create, edit, and share UI design prototypes online."
         />
         <ResourceCard
-          icon={<Terminal />}
+          icon={<terminal />}
           title="Postman"
           description="Students will receive a free Postman subscription, making it convenient to test and debug API interfaces."
         />
