@@ -1,5 +1,5 @@
-import { Box, Container, Heading, Text, List, ListItem, Link, Flex, Image } from 'theme-ui';
-import { FaGithub, FaGoogle, FaFigma, FaZoom, FaKey, FaEnvelope } from 'react-icons/fa';
+import { Box, Container, Flex, Heading, Text } from 'theme-ui';
+import { Github, Google, Figma, Terminal } from '@hackclub/icons';
 
 const App = () => {
   return (
@@ -22,74 +22,74 @@ const App = () => {
       <Heading as="h2">Project Planning</Heading>
       <Box>
         <Heading as="h3">1. Recruitment and Selection</Heading>
-        <List>
-          <ListItem>Start date: April 1, 2023</ListItem>
-          <ListItem>End date: June 30, 2023</ListItem>
-          <ListItem>
+        <Box>
+          <Box>Start date: April 1, 2023</Box>
+          <Box>End date: June 30, 2023</Box>
+          <Box>
             Eligibility: Students with zero experience in computer and programming and good English
             proficiency
-          </ListItem>
-          <ListItem>
+          </Box>
+          <Box>
             Selection process:
-            <List as="ol" styleType="decimal">
-              <ListItem>Fill out the application form</ListItem>
-              <ListItem>Undergo a short online interview</ListItem>
-              <ListItem>Confirm the admission list</ListItem>
-            </List>
-          </ListItem>
-        </List>
+            <Box as="ol" className="list-decimal pl-5">
+              <Box as="li">Fill out the application form</Box>
+              <Box as="li">Undergo a short online interview</Box>
+              <Box as="li">Confirm the admission list</Box>
+            </Box>
+          </Box>
+        </Box>
 
         <Heading as="h3">2. Learning and Practice</Heading>
-        <List>
-          <ListItem>Date: July 1, 2023 to August 31, 2023</ListItem>
-          <ListItem>
+        <Box>
+          <Box>Date: July 1, 2023 to August 31, 2023</Box>
+          <Box>
             Learning content:
-            <List as="ol" styleType="decimal">
-              <ListItem>Python programming basics</ListItem>
-              <ListItem>Front-end development (HTML, CSS, JavaScript)</ListItem>
-              <ListItem>Open-source software development</ListItem>
-              <ListItem>API usage and development</ListItem>
-            </List>
-          </ListItem>
-          <ListItem>
+            <Box as="ol" className="list-decimal pl-5">
+              <Box as="li">Python programming basics</Box>
+              <Box as="li">Front-end development (HTML, CSS, JavaScript)</Box>
+              <Box as="li">Open-source software development</Box>
+              <Box as="li">API usage and development</Box>
+            </Box>
+          </Box>
+          <Box>
             Learning methods:
-            <List as="ol" styleType="decimal">
-              <ListItem>Daily one-on-one online tutoring</ListItem>
-              <ListItem>Self-study resources, such as tutorials, videos, etc.</ListItem>
-              <ListItem>Participate in weekly offline exchange activities</ListItem>
-            </List>
-          </ListItem>
-          <ListItem>
+            <Box as="ol" className="list-decimal pl-5">
+              <Box as="li">Daily one-on-one online tutoring</Box>
+              <Box as="li">Self-study resources, such as tutorials, videos, etc.</Box>
+              <Box as="li">Participate in weekly offline exchange activities</Box>
+            </Box>
+          </Box>
+          <Box>
             Practice project: Each student must complete a practical project during their learning
             period to consolidate their computer skills. Project requirements can be determined
             based on the student's interests and mentor's suggestions.
-          </ListItem>
-        </List>
+          </Box>
+        </Box>
 
         <Heading as="h3">3. Communication and Reporting</Heading>
-        <List>
-          <ListItem>Students must report their learning progress to their mentors daily</ListItem>
-          <ListItem>
+        <Box>
+          <Box>Students must report their learning progress to their mentors daily</Box>
+          <Box>
             Weekly fixed-time LinkScape offline communication events to discuss learning progress,
             solve problems, and share experiences
-          </ListItem>
-        </List>
+          </Box>
+        </Box>
 
         <Heading as="h3">4. Project Submission and Evaluation</Heading>
-        <List>
-          <ListItem>Date: August 31, 2023</ListItem>
-          <ListItem>
+        <Box>
+          <Box>Date: August 31, 2023</Box>
+          <Box>
             Content: Each student must submit their practical project through GitHub, including
             source code, project documentation, and a short demonstration video
-          </ListItem>
-          <ListItem>
+          </Box>
+          <Box>
             Evaluation criteria: Project completion, innovation, practicality, and code quality
-          </ListItem>
-          <ListItem>
+          </Box>
+          <Box>
             Evaluation results: Based on the project evaluation results, outstanding students will
             have the opportunity to join LinkScape as official members
-          </ListItem>
-        </List>
+          </Box>
+        </Box>
       </Box>
 
       <Heading as="h2">Resources and Support</Heading>
@@ -99,32 +99,22 @@ const App = () => {
       </Text>
       <Flex sx={{ flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center' }}>
         <ResourceCard
-          icon={<FaGithub />}
+          icon={<Github />}
           title="GitHub"
           description="Students will receive a free GitHub Team subscription, allowing them to create and host unlimited code repositories for code hosting, version control, and collaborative development."
         />
         <ResourceCard
-          icon={<FaGoogle />}
+          icon={<Google />}
           title="Google Workspace"
           description="Students will receive a free Google Workspace subscription, including Gmail, Google Drive, Google Docs, Google Sheets, and other tools for online collaboration and file sharing."
         />
         <ResourceCard
-          icon={<FaFigma />}
+          icon={<Figma />}
           title="Figma"
           description="Students will receive a free Figma subscription, enabling them to create, edit, and share UI design prototypes online."
         />
         <ResourceCard
-          icon={<FaZoom />}
-          title="Zoom Pro"
-          description="Students will receive a free Zoom Pro subscription for high-quality video calls and online meetings."
-        />
-        <ResourceCard
-          icon={<FaKey />}
-          title="1Password"
-          description="Students will receive a free 1Password subscription, allowing them to securely store and manage passwords for various accounts."
-        />
-        <ResourceCard
-          icon={<FaEnvelope />}
+          icon={<Terminal />}
           title="Postman"
           description="Students will receive a free Postman subscription, making it convenient to test and debug API interfaces."
         />
@@ -140,23 +130,24 @@ const App = () => {
       <Text>
         Through this one-on-one computer mentor project, we hope to achieve the following goals:
       </Text>
-      <List>
-        <ListItem>
+      <Box>
+        <Box>
           Cultivate a group of students with no computer background, enabling them to master basic
           programming skills and computer knowledge.
-        </ListItem>
-        <ListItem>
+        </Box>
+        <Box>
           Provide students with a friendly and mutually supportive learning environment, enhancing
           their confidence and motivation to learn.
-        </ListItem>
-        <ListItem>
+        </Box>
+        <Box>
           Select outstanding students to join LinkScape, injecting new vitality and innovation into
           our non-profit organization.
-        </ListItem>
-      </List>
+        </Box>
+      </Box>
       <Text>
         Based on the successful implementation of the project, we will further improve and expand
-        the program to meet the learning needs of more students. We look forward to contributing to
+        the program to meet the learning needs of more students. We look
+        forward to contributing to
         computer education through this project and promoting the popularization and development of
         open-source software and technology.
       </Text>
