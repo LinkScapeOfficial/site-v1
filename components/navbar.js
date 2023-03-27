@@ -4,6 +4,7 @@ import Link from 'next/link'
 const Navs = [
   { href: '/team', name: 'Team', passHref: true },
   { href: '/hackathons', name: 'Hackathons', passHref: true },
+{ href: '/summer', name: 'Summer', passHref: true },
   {
     href: 'https://workshops.hackclub.com/',
     name: 'Workshops',
