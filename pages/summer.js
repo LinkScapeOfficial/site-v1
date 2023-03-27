@@ -4,7 +4,7 @@ import { github, google, gigma, terminal } from '@hackclub/icons';
 const App = () => {
   return (
     <Container>
-      <Heading as="h1" sx={{ textAlign: 'center', mt: 4, mb: 4 }}>
+      <Heading as="h1" sx={{ textAlign: 'center', mt: 4, mb: 4, fontSize: '5rem' }}>
         LinkScape Summer of Learning
       </Heading>
 
@@ -26,8 +26,9 @@ const App = () => {
           <Box>Start date: April 1, 2023</Box>
           <Box>End date: June 30, 2023</Box>
           <Box>
-            Eligibility: Students with zero experience in computer and programming and good English
-            proficiency
+            Elligibility: This program is open to both beginners and intermediate students who
+            express a deep interest in technology and a high level of intellectual curiosity. 
+              Students are expected to be proficient in English.
           </Box>
           <Box>
             Selection process:
@@ -60,9 +61,9 @@ const App = () => {
             </Box>
           </Box>
           <Box>
-            Practice project: Each student must complete a practical project during their learning
-            period to consolidate their computer skills. Project requirements can be determined
-            based on the student's interests and mentor's suggestions.
+            Personal project. After the first four weeks of training, dilligent students will be able to 
+              develop their own personal projects. To get you started, we will continue to provide support 
+              through our mentors.
           </Box>
         </Box>
 
