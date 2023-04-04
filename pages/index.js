@@ -37,6 +37,9 @@ const DocsPage = () => (
     color="#ec3750"
     manifest="/site.webmanifest"
     />
+    <head>
+      <script async defer data-website-id="6d581cea-17fa-4aa6-9c62-742bbb3f6198" src="https://analytics.linkscape.app/umami.js"></script>
+    </head>
     <Box as="header" sx={{ bg: '#000000' }}>
 	  <br />
 	  <br />
