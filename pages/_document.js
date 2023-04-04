@@ -10,9 +10,7 @@ export default class extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head>
-          <script async defer data-website-id="6d581cea-17fa-4aa6-9c62-742bbb3f6198" src="https://analytics.linkscape.app/umami.js"></script>
-        </Head>
+        <Head />
         <body>
           <InitializeColorMode />
           <Main />
