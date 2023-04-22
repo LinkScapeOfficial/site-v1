@@ -7,6 +7,7 @@ import theme from '@hackclub/theme'
 import { ThemeProvider } from 'theme-ui'
 import Nav from '../components/nav'
 import Navibar from '../components/navbar'
+import Meta from '@hackclub/meta'
 
 export default class App extends NextApp {
   render() {
