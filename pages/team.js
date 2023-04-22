@@ -27,7 +27,7 @@ import Meta from '@hackclub/meta'
 
 const Team = () => {
     return <div className='block'>
-        <div class="h-screen flex items-center justify-center">
+        <div class="h-screen justify-center">
           <Heading variant="title">Leaders</Heading>
         </div>
         <Grid
