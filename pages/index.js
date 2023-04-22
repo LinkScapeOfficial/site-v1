@@ -142,6 +142,7 @@ const DocsPage = () => (
     <Container variant="copy" mt={3}>
       <Card variant='sunken'>
       <Text variant='headline'>Subscribe to our newsletter!</Text>
+      <br />
       <form action="https://postal.hackclub.com/subscribe" method="POST" accept-charset="utf-8">
         <Input type="text" name="name" id="name" placeholder="Name" required />
 
