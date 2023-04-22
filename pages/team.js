@@ -27,7 +27,7 @@ import Meta from '@hackclub/meta'
 
 const Team = () => {
     return <div className='block'>
-        <Heading variant="title">Leaders</Heading>
+        <Heading variant="title" className='mx-auto'>Leaders</Heading>
         <Grid
       columns={[1, 'auto auto auto']}
       sx={{
@@ -35,7 +35,7 @@ const Team = () => {
         justifyContent: 'center',
         a: { color: 'muted', transition: 'color .125s ease-in-out' },
       }}
-      gap={1}
+      gap={2}
     >
       <Card>
         <Container>
