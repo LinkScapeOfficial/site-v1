@@ -27,7 +27,9 @@ import Meta from '@hackclub/meta'
 
 const Team = () => {
     return <div className='block'>
-        <Heading variant="title" class="text-center">Leaders</Heading>
+        <div class="h-screen flex items-center justify-center">
+          <Heading variant="title">Leaders</Heading>
+        </div>
         <Grid
       columns={[1, 'auto auto auto']}
       sx={{
