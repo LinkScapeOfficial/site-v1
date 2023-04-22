@@ -8,6 +8,7 @@ import { ThemeProvider } from 'theme-ui'
 import Nav from '../components/nav'
 import Navibar from '../components/navbar'
 import Meta from '@hackclub/meta'
+import Head from 'next/head'
 
 export default class App extends NextApp {
   render() {
@@ -22,9 +23,9 @@ export default class App extends NextApp {
             color="#ec3750"
             manifest="/site.webmanifest"
             />
-        <head>
+        <Head>
           <script async defer data-website-id="6d581cea-17fa-4aa6-9c62-742bbb3f6198" src="https://analytics.linkscape.app/umami.js"></script>
-        </head>
+        </Head>
         <Navibar />
         <Component {...pageProps} />
       </ThemeProvider>
