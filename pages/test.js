@@ -2,12 +2,7 @@ import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import { useEffect, useState } from 'react';
 import Tilt from 'react-parallax-tilt';
-import { Chart } from './chart';
 
-const CountUp = dynamic(() => import('react-countup'), { ssr: false });
-const useEffect(() => {
-    setCommand(installCommands[count % 3]);
-  }, [count]);
 const DocsPage = () => (
     <>
       <div
@@ -20,9 +15,9 @@ const DocsPage = () => (
               Up to{' '}
               <span className="gradient-text inline-block">
                 <span className="font-mono">
-                  <CountUp end={70} />
                 </span>
-                % faster*
+
+                114% faster*
               </span>
               <br />
               React components.
@@ -127,7 +122,6 @@ const DocsPage = () => (
               <p className="text-xs mt-1 text-gray-400">
                 Geometric mean of all benchmarks (higher is better)
               </p>
-              <Chart />
             </div>
             <p className="text-xs text-gray-400">
               Based on JS Framework Benchmark data •{' '}
