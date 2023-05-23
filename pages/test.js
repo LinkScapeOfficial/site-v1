@@ -139,6 +139,5 @@ const DocsPage = () => (
       </div>
     </>
   );
-}
 
 export default DocsPage
