@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import { useEffect, useState } from 'react';
-import Tilt from 'react-parallax-tilt';
 
 const DocsPage = () => (
     <>
@@ -106,35 +105,6 @@ const DocsPage = () => (
                 </p>
               </div>
             </div>
-            <div className="h-8 lg:hidden"></div>
-          </div>
-          <Tilt
-            tiltMaxAngleX={5}
-            tiltMaxAngleY={10}
-            glareEnable
-            tiltAngleYInitial={5}
-            glareMaxOpacity={0.1}
-            className="hidden shadow-lg md:block w-full lg:!max-w-[400px] xl:!max-w-[550px] xl:mx-auto !text-md
-          bg-[#ffffff] dark:bg-[#282b34] border border-[#e3e7f1] dark:border-[#343842] p-5 rounded-lg text-center"
-          >
-            <div className="w-full">
-              <p className="font-mono font-bold">JS Framework Benchmark</p>
-              <p className="text-xs mt-1 text-gray-400">
-                Geometric mean of all benchmarks (higher is better)
-              </p>
-            </div>
-            <p className="text-xs text-gray-400">
-              Based on JS Framework Benchmark data •{' '}
-              <a
-                href="https://krausest.github.io/js-framework-benchmark/2023/table_chrome_112.0.5615.49.html"
-                target="_blank"
-                rel="noreferrer"
-                className="text-[#b073d9] underline decoration-from-font [text-underline-position:from-font]"
-              >
-                View the full benchmark (Chrome 102)
-              </a>
-            </p>
-          </Tilt>
         </main>
       </div>
     </>
