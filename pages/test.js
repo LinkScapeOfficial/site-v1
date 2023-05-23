@@ -107,7 +107,6 @@ const DocsPage = () => (
             </div>
         </main>
         </div>
-      </div>
     </>
   );
 
