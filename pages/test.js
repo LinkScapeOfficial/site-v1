@@ -106,6 +106,8 @@ const DocsPage = () => (
               </div>
             </div>
         </main>
+        </div>
+      </div>
     </>
   );
 
