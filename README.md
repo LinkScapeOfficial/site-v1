@@ -1,3 +1,11 @@
+# LinkScape Site V1
+
+This is the first version of the LinkScape website and is not being used by LinkScape anymore.
+
+The old README.md of this repository is below:
+
+---------
+
 # linkscape-web
 [![](https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg)](https://vercel.com/?utm_source=linkscape&utm_campaign=oss)
 
