@@ -208,10 +208,10 @@
   resolved "https://registry.npmmirror.com/@heroicons/react/-/react-2.0.16.tgz#562883c19ba2690c83380b42a9a5cce39dcbdb4a"
   integrity sha512-x89rFxH3SRdYaA+JCXwfe+RkE1SFTo9GcOkZettHer71Y3T7V+ogKmfw5CjTazgS3d0ClJ7p1NA+SP7VQLQcLw==
 
-"@icons-pack/react-simple-icons@^7.1.0":
-  version "7.1.0"
-  resolved "https://registry.npmmirror.com/@icons-pack/react-simple-icons/-/react-simple-icons-7.1.0.tgz#03511272d699acb9c50c11da35d5c00b72f79d8e"
-  integrity sha512-vh/nArXrxjnppiGV31fQv2yE2sAAF1uhrQezx/WakXazK3xdGgsyL8Ww1e6feN5715vGyWSrCJIcd2Va2+fr0A==
+"@icons-pack/react-simple-icons@^9.0.0":
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/@icons-pack/react-simple-icons/-/react-simple-icons-9.0.0.tgz#06cf7290b698c66ea8ce214741161776feede9d2"
+  integrity sha512-2ZLcJKCmz0VESaKbuiJ8ks4Qd8fldTdK63JkO3bLgD0GVXQi994jy7/1Kd+mIrMmrSMGPe23+DGGx5g9aAsc2w==
 
 "@mdx-js/loader@^2.2.1":
   version "2.2.1"
